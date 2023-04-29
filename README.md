@@ -30,11 +30,11 @@ Como utilizar
 
     Abra um terminal ou prompt de comando na pasta do repositório e execute o seguinte comando para instalar as bibliotecas Python necessárias:
 
-pip install -r requirements.txt
+
 
 Execute o script com o seguinte comando:
 
-    python recommender.py
+    python main3.py
 
     Siga as instruções para digitar o nome do artista e da música desejados, e escolher as opções de número de músicas similares e recomendações.
 
