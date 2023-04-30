@@ -1,7 +1,7 @@
-<center>
-<img src=https://i.imgur.com/C0RrESB.png>
-</center>
 
+<p align="center">
+ <img src=https://i.imgur.com/C0RrESB.png>
+</p>
 
 
 Recomendação de músicas similares com Python
