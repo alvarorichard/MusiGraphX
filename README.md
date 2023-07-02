@@ -55,3 +55,7 @@ Siga as instruções para digitar o nome do artista e da música desejados, e es
 
 
 O script utiliza a API do Last.fm para obter uma lista de músicas similares à música escolhida pelo usuário, e em seguida cria um grafo no qual cada nó representa uma música e cada aresta representa uma similaridade entre duas músicas. A similaridade é medida com base nas "tags" associadas a cada música, que são palavras-chave que descrevem o estilo da música. Em seguida, o script utiliza o algoritmo de caminho mais curto para encontrar as músicas mais similares à música escolhida pelo usuário, e retorna as músicas com maior similaridade.
+
+## Contribuindo
+
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões para melhorias, por favor, crie uma issue ou envie um pull request.
