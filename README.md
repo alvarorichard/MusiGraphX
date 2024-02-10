@@ -14,14 +14,12 @@
  Bibliotecas Python:
 requests
    json
-        networkx
-        matplotlib
-        termcolor
+   networkx
+   matplotlib
+   termcolor
 
-As bibliotecas Python podem ser instaladas via pip. Por exemplo, para instalar a biblioteca networkx, execute o seguinte comando:
-```python
- pip install requests networkx matplotlib termcolor
- ```
+
+
 ## Como utilizar
  
 
@@ -32,11 +30,43 @@ Obtenha uma API key do Last.fm em
  git clone https://github.com/alvarorichard/MusiGraphX.git
  ```
 
+
  ```shell
  cd MusiGraphX
  ```
+
+Crie um ambiente virtual (venv) para o projeto
+
+```python
+python -m venv venv
+```
+
+Ative o ambiente virtual.
+No Windows:
+
+```bash
+.\venv\Scripts\activate
+```
+
+No macOS e Linux:
+
+```bash
+source venv/bin/activate
+```
+As bibliotecas Python podem ser instaladas via pip. Por exemplo, para instalar a biblioteca networkx, execute o seguinte comando:
+
+
+```python
+ pip install -r requirements.txt
+ ```
+
+
+
+
+
+
    
-No arquivo main3.py, substitua a variável API_KEY pela sua API key obtida no passo 1.
+No arquivo main.py, substitua a variável API_KEY pela sua API key obtida no passo 1.
 
 Abra um terminal ou prompt de comando na pasta do repositório e execute o seguinte comando para instalar as bibliotecas Python necessárias:
 
@@ -44,7 +74,7 @@ Abra um terminal ou prompt de comando na pasta do repositório e execute o segui
 
 Execute o script com o seguinte comando:
 
-   ```python python3 main3.py ```
+   ```python main.py ```
     
 
 Siga as instruções para digitar o nome do artista e da música desejados, e escolher as opções de número de músicas similares e recomendações.
