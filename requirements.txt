@@ -1,0 +1,4 @@
+termcolor==2.4.0
+matplotlib==3.8.2
+networkx==3.2.1
+requests==2.31.0
